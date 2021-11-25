@@ -1,15 +1,18 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-family: monospace;
 }
 
 #cabecalho {
     background-color: red;
+    border: solid;
+    bottom: 0;
+    text-align: center;
     margin: 2px;
     position: fixed;
     top: 0;
     width: 100%;
     height: 10%;
-    z-index: 1;
 }
 
 #titulo {
@@ -17,19 +20,33 @@ body {
 }
 
 #minha_foto {
-    position: absolute;
-    top: 150px;
-    width: 200px;
+    position: fixed;
+    top: 90px;
+    width: 150px;
     left: 3%;
-    z-index: 2;
 }
 
+h3 {
+    position: absolute;
+    top: 265px;
+}
 #licoes_aprendidas {
     position: absolute;
-    top: 380px;
+    top: 300px;
 }
 
 #licoes_a_aprender {
     position: absolute;
-    top: 600px;
+    top: 470px;
 }
+
+#rodape {
+    background-color: red;
+    position: fixed;
+    border: solid;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+}
+
