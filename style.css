@@ -11,13 +11,17 @@ body {
     background-color: rgb(253, 251, 251);
     font-family: 'Comic Neue', cursive;
     color: #11144C;
-    line-height: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+header {
+    background-color: #FDFAF6;
 }
 
 #cabecalho {
     position: fixed;
     background-color: #FDFAF6;
-    bottom: 0;
     text-align: center;
     top: 0;
     width: 100%;
@@ -25,16 +29,32 @@ body {
     color: #064420;
 }
 
+ul li a {
+    text-decoration: none;
+    color: #064420;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    transition: font-size .5s;
+    color: white;
+    background-color: #346751;
+    margin: 8% auto;
+    padding: 8px;
+    border-radius: 35%;
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    text-align: center;
+}
+
 #titulo {
     text-align: center;
-    margin-top: 10px;
 }
 
 nav {
     background-color: #FDFAF6;
-    margin-top: 15px;
 }
-
 
 .navegacao li {
     background-color: #FDFAF6;
@@ -49,49 +69,56 @@ nav {
 }
 
 main {
-    margin-top: 100px; 
+    margin-top: 130px; 
     margin-bottom: 300px;
-
 }
 
 .lado-esquerdo {
-    display: inline-block;
     float: left;
-    width: 600px;
+    width: 40%;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 10%;
 }
 
 .lado-direito {
-    display: inline-block;
     float: right;
-    width: 550px;
+    width: 40%;
     text-align: center;
 }
 
 #link {
     text-decoration: none;
-    color: #3A9679;
+    line-height: 15px;
+    background-color: #346751;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    width: 60px;
+    color: blanchedalmond;
+    font-weight: 700;
 }
 
 #link:hover {
     text-decoration: underline;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 main div.lista {
-    text-align: left; 
+    text-align: center; 
 }
 
 #minha_foto {
     width: 200px;
     height: 250px;
-    margin:  3% 10%;
+    margin:  1%;
     border-radius: 10% 5%;
-    border-radius: 10% 5%;
-    border-color: red;
+    border: solid;
+    vertical-align: top;
+    border-color: #082032;
     border-width: 10px;
-}
+    border-style: double;
+    }
 
 #licoes_aprendidas {
     display: inline-block;
@@ -107,13 +134,18 @@ main div.lista {
     vertical-align: top;
 }
 
+#video {
+    display:block;
+    text-decoration: none;
+}
+
 #rodape {
     background-color: #FDFAF6;
     position: fixed;
     bottom: 0;
     text-align: center;
     width: 100%;
-    height: 75px;
-    margin: 2px;
+    height: 150px;
+    line-height: 1.5;
     color: #064420;
 }
