@@ -5,23 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <title>Lessons Learned</title>
 </head>
 <body>
     <header id="cabecalho">
-        <h1 id="titulo">Titulo aqui</h1>
-    <nav>
-        <ul class="navegacao">
-            <li>artigo1</li>
-            <li>artigo aprendizado</li>
-            <li>contatos</li>
-        </ul>
-    </nav>
+        <h1 id="titulo"><strong>Project Lessons Learned</strong></h1>
+        <nav>
+            <ul class="navegacao bold">
+                <li>artigo1</li>
+                <li>artigo aprendizado</li>
+                <li>contatos</li>
+            </ul>
+        </nav>
     </header>
     <main>
-    <div class="lista">
+        <section id="artigo">
+            <article class="lado-esquerdo">
+                <h2 class="bold">Tamiris x Trybe</h2>
+                <p>Me chamo Tamiris, mas podem me chamar de <span class="bold">Japa</span>!<br>No meio desse ano insatisfeita com minha área profissional, meu noivo me apresentou a <span class="bold">Trybe</span> e confesso que pensei "Nunca vou digitar uns trem desses!", mas foi me apaixonando por programação. E mesmo achando que já "tinha passado a hora", decidi fazer a <span class="bold">transição de carreira</span> e em novembro/2021 passei no processo seletivo para a Turma 19 e iniciei o curso de <span class="bold">Desenvolvimento Web</span>!<br><strong>E confesso que foi a melhor escolha que fiz.</strong></p>
+            </article>
+            <aside class="lado-direito">
+                <h2 class="bold">Formação da Trybe</h2><br>
+                <p>Seja um profissional de sucesso com a Trybe!</p>
+                <br>
+
+                <!-- estrutura de link tirado direto do youtube -->
+
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/J68Vff332Ug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/kJkQFVqySUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <p>Conheça mais a <a href="https://www.betrybe.com/" target="_blank" id="link">Trybe</a></p>
+            </aside>
+        </section>
+        <img src="eu.png" alt="Foto Tamiris" id="minha_foto" >
+        <div class="lista">
         <ol id="licoes_aprendidas">
-        <p>Habilidades Adquiridas:</p>
+        <p class="bold">Habilidades Adquiridas:</p>
             <li>Unix, Bash & Shell</li>
             <li>Git</li>
             <li>GitHub</li>
@@ -33,10 +55,8 @@
             <li>Autoliderança</li>
             <li>PDI</li>
         </ol>
-        <img src="eu.png" alt="Foto Tamiris" id="minha_foto" >
         <ul id="licoes_a_aprender">
-        <ul>
-        <p>Habilidades a Adquir:</p>
+        <p class="bold">Habilidades a Adquir:</p>
             <li>JavaScript</li>
             <li>React</li>
             <li>Resiliência</li>
@@ -49,21 +69,11 @@
             <li>Comunicação Assertiva</li>
         </ul>
     </div>
-    <section id="artigo">
-        <article class="lado-esquerdo">
-            <h2>Tamiris x Trybe</h2>
-            <p>Me chamo Tamiris, mas podem me chamar de Japa!<br>No meio desse ano insatisfeita com minha área profissional, meu noivo me apresentou a Trybe e confesso que pensei "Nunca vou digitar uns trem desses!", mas foi me apaixonando por programação. E mesmo achando que já "tinha passado a hora", decidi fazer a transição de carreira e em novembro/2021 passei no processo seletivo para a Turma 19 e iniciei o curso de Desenvolvimento Web!<br>E confesso que foi a melhor escolha que fiz.</p>
-        </article>
-        <aside class="lado-direito">
-            <h2>1 mês de Trybe</h2>
-            <p>Foi possível construir esse site com HTML&CSS, HTML semântico!</p>
-            <p>Conheça mais da<a href="https://www.betrybe.com/" target="_blank">Trybe</a></p>
-        </aside>
-    </section>
     </main>
         <footer id="rodape">
-            <p><em>A sabedoria não vem do acerto, mas do aprendizado com os erros</em> - Monja Coen</p>
-            <p>Conteúdo compilado por Tamiris Shigaki, 2021</p>
+            <p class="bold"><em>A sabedoria não vem do acerto, mas do aprendizado com os erros</em> - Monja Coen</p>
+            <p  class="bold">Conteúdo compilado por Tamiris Shigaki, 2021</p>
         </footer>
 </body>
 </html>
+
